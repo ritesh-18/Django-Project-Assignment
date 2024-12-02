@@ -42,7 +42,9 @@ cd projectCRUD
 
  SetUp the DataBase
 ```bash
+python manage.py makemigrations
 python manage.py migrate
+
 
 ## Run the Development Server
 ```bash
